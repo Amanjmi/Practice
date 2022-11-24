@@ -1,4 +1,4 @@
-//some array commands are there
+  //some array commands are there
 import java.util.Arrays;
 
 public class arraycommands {
