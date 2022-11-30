@@ -16,3 +16,6 @@ public class String_1 {
 		}
 }
 
+
+javap java .lang.String
+
