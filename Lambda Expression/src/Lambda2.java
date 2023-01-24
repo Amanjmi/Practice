@@ -7,32 +7,32 @@ interface CLS
 }
 
 //#1
-//class LOS implements CLS
-//{
-//	public int getLength(String str)
-//	{
-//		int length=str.length();
-//		return length;
-//	}
-//}
+class LOS implements CLS
+{
+	public int getLength(String str)
+	{
+		int length=str.length();
+		return length;
+	}
+}
 
 public class Lambda2 {
 
 	public static void main(String[] args) 
 	{
-//		LOS l=new LOS();
-//		System.out.println(l.getLength("iNeuron.ai"));
+		LOS l=new LOS();
+		System.out.println(l.getLength("iNeuron.ai"));
 		
-//		CLS cls=new CLS() {
-//			
-//			public int getLength(String str)
-//			{
-//				return str.length();
-//			}
-//		};
-//		System.out.println(cls.getLength("iNeuron.ai"));
+		CLS cls=new CLS() {
+			
+			public int getLength(String str)
+			{
+				return str.length();
+			}
+		};
+		System.out.println(cls.getLength("iNeuron.ai"));
 		
-		CLS cls= str -> str.length();
+		 cls= str -> str.length();
 		
 		System.out.println(cls.getLength("iNeuron.ai"));
 
